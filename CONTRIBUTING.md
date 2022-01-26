@@ -139,6 +139,7 @@ npm i
 
 ```
 # ... assuming still in [fullstack-tutorial-root]/final/client from step 2
+
 cd node_modules/@apollo
 rm -Rf ./client
 ln -s [apollo-client-root]/dist client
@@ -148,6 +149,7 @@ ln -s [apollo-client-root]/dist client
 
 ```
 # ... assuming still in [fullstack-tutorial-root]/final/client/node_modules/@apollo from step 3
+
 cd ..
 rm -Rf ./react ./react-dom
 ln -s [apollo-client-root]/node_modules/react
